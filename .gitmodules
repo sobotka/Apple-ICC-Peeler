@@ -1,0 +1,4 @@
+[submodule "iccinspector"]
+	path = iccinspector
+	url = git@github.com:sobotka/iccinspector.git
+	branch = master
