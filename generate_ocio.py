@@ -34,7 +34,7 @@ if __name__ == "__main__":
 
             iccFile = iccinspector.iccProfile()
             iccFile.read(s)
-            
+
             chad = iccFile.tags["tag"][
                 numpy.where(iccFile.tags["signature"] == "chad")
             ][0]
